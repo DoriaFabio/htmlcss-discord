@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Whitney, "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-family: Whitney, 'Helvetica-Neue', Helvetica, Arial, sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,6 +16,47 @@ html {
     --blue: #255EE9;
     --light: #F6F6F6;
     --violet: #748ADB;
+}
+
+/* Titolo principale */
+h1 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+/* Titoli sezioni */
+h2 {
+    font-size: 2.2em;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Paragrafi */
+p {
+    font-size: 20px;
+    padding: 20px 0px;
+    line-height: 1.75;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    gap: 50px;
+}
+
+/* ancora */
+nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+main a {
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* Container */
@@ -57,11 +99,6 @@ html {
 
 .bkg-dark {
     background-color: var(--dark);
-}
-
-.bkg-image {
-    background-image: url(./img/jumbo.png);
-    background-size: cover;
 }
 
 /* Colori testo */
@@ -108,24 +145,6 @@ html {
     width: 40%;
 }
 
-/* Lista */
-ul {
-    list-style: none;
-    gap: 50px;
-}
-
-/* ancora */
-nav a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-}
-
-main a {
-    text-decoration: none;
-    display: inline-block;
-}
-
 /* Bottoni */
 .btn {
     border: 1px solid black;
@@ -143,39 +162,13 @@ main a {
     color: white;
 }
 
-/* Hero */
-h1 {
-    color: white;
-    font-size: 3em;
-    padding-bottom: 20px;
-}
-
-/* Titoli sezioni */
-h2 {
-    font-size: 3em;
-}
-
-.h2-center {
-    text-align: center;
-    font-size: 3em;
-}
-
-/* Paragrafi */
-p {
-    font-size: 20px;
-    padding: 20px 0px;
-    line-height: 1.75;
+div.buttons {
+    margin: 10px;
 }
 
 /* Immagini */
 .images img {
     width: 100%;
-}
-
-.img-center {
-    text-align: center;
-    padding: 20px 0px;
-
 }
 
 .bkg-image-section {
@@ -189,15 +182,19 @@ p {
     height: 20px;
 }
 
-div.buttons {
-    margin: 10px;
+.bkg-image {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
 }
+
+/* Onde */
 .wave {
     height: 100px;
     width: 100%;
     background-image: url(./img/wave.svg);
     opacity: 0.03;
 }
+
 .wave-reverse {
     height: 100px;
     width: 100%;
