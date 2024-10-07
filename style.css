@@ -182,7 +182,15 @@ a {
     color: white;
     margin-top: 15px;
 }
-
+.btn-purple:hover {
+    background-color: #667fd7;
+}
+.btn-black:hover {
+    background-color: rgb(17, 17, 17);
+}
+.btn:hover {
+    background-color: #F6F6F6;
+}
 div.buttons {
     margin: 10px;
 }
