@@ -40,10 +40,13 @@ h3 {
 /* Paragrafi */
 p {
     font-size: 20px;
-    padding: 20px 0px;
+    padding: 15px 0px;
     line-height: 1.75;
 }
-
+.icon {
+    font-size: 20px;
+    padding-right: 20px;
+}
 /* Lista */
 ul {
     list-style: none;
@@ -154,15 +157,15 @@ a {
 
 /* Bottoni */
 .btn {
-    border-radius: 25px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 12px;
     background-color: white;
     color: var(--dark);
 }
 
 .btn-black {
-    border-radius: 25px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 12px;
     background-color: var(--dark);
     color: white;
 }
