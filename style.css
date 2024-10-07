@@ -43,10 +43,12 @@ p {
     padding: 15px 0px;
     line-height: 1.75;
 }
+/* Icone */
 .icon {
     font-size: 20px;
     padding-right: 20px;
-}
+} 
+
 /* Lista */
 ul {
     list-style: none;
@@ -145,6 +147,9 @@ a {
 .wrap {
     flex-wrap: wrap;
 }
+.d-center {
+    align-items:center;
+}
 
 /* Dimensioni */
 .images {
@@ -182,7 +187,7 @@ div.buttons {
     margin: 10px;
 }
 
-/* Immagini */
+/* Immagini e immagini di sfondo*/
 .images img {
     width: 100%;
 }
