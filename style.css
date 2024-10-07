@@ -1,0 +1,207 @@
+/* Impostazioni generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Inizializzazione Colori */
+:root {
+    --dark: #23272A;
+    --blue: #255EE9;
+    --light: #F6F6F6;
+    --violet: #748ADB;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-head {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+/* Colori sfondo */
+.bkg-light {
+    background-color: var(--light);
+}
+
+.bkg-blue {
+    background-color: var(--blue);
+}
+
+.bkg-dark {
+    background-color: var(--dark);
+}
+
+.bkg-image {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+}
+
+/* Colori testo */
+.txt-white {
+    color: white;
+}
+
+.txt-blue {
+    color: #7289DA;
+}
+
+/* bordo footer */
+.border-btm {
+    border-bottom: 1px solid #F6F6F6;
+}
+
+/* Impostazioni flex */
+.d-flex {
+    display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Dimensioni */
+.images {
+    width: 60%;
+}
+
+.text {
+    width: 40%;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    gap: 50px;
+}
+
+/* ancora */
+nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+main a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Bottoni */
+.btn {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: var(--dark);
+}
+
+.btn-black {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: var(--dark);
+    color: white;
+}
+
+/* Hero */
+h1 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+/* Titoli sezioni */
+h2 {
+    font-size: 3em;
+}
+
+.h2-center {
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Paragrafi */
+p {
+    font-size: 20px;
+    padding: 20px 0px;
+    line-height: 1.75;
+}
+
+/* Immagini */
+.images img {
+    width: 100%;
+}
+
+.img-center {
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.bkg-image-section {
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-small {
+    width: 20px;
+    height: 20px;
+}
+
+div.buttons {
+    margin: 10px;
+}
+.wave {
+    height: 100px;
+    width: 100%;
+    background-image: url(./img/wave.svg);
+    opacity: 0.03;
+}
+.wave-reverse {
+    height: 100px;
+    width: 100%;
+    background-image: url(./img/wave.svg);
+    opacity: 0.03;
+    transform: rotate(180deg);
+}
